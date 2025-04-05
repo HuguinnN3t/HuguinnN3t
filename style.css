@@ -357,3 +357,41 @@ a {
     color: #00ff88;
     text-decoration: none;
 }
+/* Why Choose Us Section */
+.why-us {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.why-card {
+    background-color: #262626;
+    padding: 25px 20px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+}
+
+.why-card h3 {
+    font-size: 1.1rem;
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.why-card p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
