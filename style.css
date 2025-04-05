@@ -248,3 +248,49 @@ a {
 .btn-community:hover {
     background-color: #00e67e;
 }
+/* Trust / Success Stories Section */
+.trust {
+    background-color: #f8f8f8;
+    color: #1a1a1a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.trust .section-title {
+    color: #1a1a1a;
+}
+
+.trust .section-description {
+    color: #555;
+}
+
+.trust-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.trust-card {
+    background-color: #fff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.trust-card:hover {
+    transform: translateY(-5px);
+}
+
+.trust-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #00a36c;
+}
+
+.trust-card p {
+    font-size: 0.95rem;
+    color: #333;
+}
