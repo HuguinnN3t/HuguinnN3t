@@ -131,6 +131,57 @@ a {
     .hero-content h2 {
         font-size: 2rem;
     }
+/* Services Section */
+.services {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #00ff88;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    color: #ccc;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.service-box {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 25px 20px;
+    transition: transform 0.3s, background-color 0.3s;
+    border: 1px solid #333;
+}
+
+.service-box h3 {
+    font-size: 1.2rem;
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 0.95rem;
+    color: #aaa;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    background-color: #2d2d2d;
+}
 
     .hero-content p {
         font-size: 1rem;
